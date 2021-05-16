@@ -7,6 +7,7 @@ const AddTaskForm = ({ addTask }) => {
     e.preventDefault();
     value && addTask(value);
     setValue("");
+    console.log("handles submit");
   };
 
   return (
